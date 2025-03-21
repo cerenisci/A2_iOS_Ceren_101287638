@@ -16,7 +16,7 @@ struct ContentView: View {
 
                     Text(product.productDescription ?? "No data")
                     Text("Price: $\(product.price)")
-                    Text("Provider: \(product.provider ?? "Unknown")")
+                    Text("Provider: \(product.provider ?? "Notknown")")
                 } else {
                     Text("No Product Selected")
                 }
