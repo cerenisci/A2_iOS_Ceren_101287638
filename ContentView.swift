@@ -11,10 +11,10 @@ struct ContentView: View {
         NavigationView {
             VStack {
                 if let product = selectedProduct {
-                    Text(product.name ?? "Unknown")
+                    Text(product.name ?? "NotKnown")
                         .font(.smallTitle)
 
-                    Text(product.productDescription ?? "No description")
+                    Text(product.productDescription ?? "No data")
                     Text("Price: $\(product.price)")
                     Text("Provider: \(product.provider ?? "Unknown")")
                 } else {
