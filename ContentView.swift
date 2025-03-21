@@ -12,7 +12,8 @@ struct ContentView: View {
             VStack {
                 if let product = selectedProduct {
                     Text(product.name ?? "Unknown")
-                        .font(.largeTitle)
+                        .font(.smallTitle)
+
                     Text(product.productDescription ?? "No description")
                     Text("Price: $\(product.price)")
                     Text("Provider: \(product.provider ?? "Unknown")")

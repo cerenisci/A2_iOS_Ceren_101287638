@@ -12,3 +12,4 @@ extension Product {
     @NSManaged public var price: Double
     @NSManaged public var provider: String?
 }
+// Product model for Core Data
