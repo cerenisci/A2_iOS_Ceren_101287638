@@ -18,7 +18,7 @@ struct ContentView: View {
                     Text("Price: $\(product.price)")
                     Text("Provider: \(product.provider ?? "Notknown")")
                 } else {
-                    Text("No Product Selected")
+                    Text("Nothing Selected")
                 }
 
                 List(products) { product in
