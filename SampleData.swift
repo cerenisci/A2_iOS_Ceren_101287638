@@ -2,7 +2,7 @@ import CoreData
 
 func addSampleProducts(context: NSManagedObjectContext) {
     let products = [
-        ("1", "Laptop", "High-performance laptop", 1200.0, "TechCorp"),
+        ("1", "Laptop", "High-performance laptop", 1300.0, "TechCorp"),
         ("2", "Smartphone", "Latest model smartphone", 800.0, "Mobile Inc"),
         ("3", "Tablet", "10-inch screen tablet", 600.0, "TabWorld")
     ]
