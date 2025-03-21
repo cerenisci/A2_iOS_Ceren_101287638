@@ -23,7 +23,7 @@ struct ContentView: View {
 
                 List(products) { product in
                     Button(action: { selectedProduct = product }) {
-                        Text(product.name ?? "Unknown")
+                        Text(product.name ?? "Notknown")
                     }
                 }
             }
